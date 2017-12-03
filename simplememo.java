@@ -59,7 +59,7 @@ public class simplememo extends JPanel{
                     jBtnAddRow();
                 }
             });
-            jBtnAddRow.setBounds(30,222,120, 25);
+            jBtnAddRow.setBounds(100,222,120, 25);
             jBtnAddRow.setText("추가");
             add(jBtnAddRow);
             
@@ -70,7 +70,7 @@ public class simplememo extends JPanel{
                     jBtnDelRow();
                 }
             });
-            jBtnDelRow.setBounds(new Rectangle(182, 222, 120, 25));
+            jBtnDelRow.setBounds(new Rectangle(250, 222, 120, 25));
             jBtnDelRow.setText("삭제");
             add(jBtnDelRow);
         }
@@ -94,7 +94,7 @@ public class simplememo extends JPanel{
     	simplememo panel = new simplememo();
         JFrame win = new JFrame();
         win.add(panel);
-        win.setSize(540,500);
+        win.setSize(510,300);
         win.setVisible(true);
     }
 }
